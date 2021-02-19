@@ -1,3 +1,4 @@
+include ':practicedraw2'
 include ':practicedraw1'
 include ':app'
 rootProject.name = "ViewSample"
