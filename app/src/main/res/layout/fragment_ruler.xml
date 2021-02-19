@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.funcoding.viewsample.ruler.RulerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.funcoding.viewsample.ruler.RulerView
+        android:id="@+id/objectAnimatorView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/animateBt"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:text="@string/animate"
+        android:textSize="16sp" />
+
+</cn.funcoding.viewsample.ruler.RulerLayout>
