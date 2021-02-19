@@ -3,10 +3,14 @@ package cn.funcoding.practicedraw1.practice;
 import android.content.Context;
 import android.graphics.Canvas;
 import androidx.annotation.Nullable;
+
+import android.graphics.Color;
+import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
 public class Practice6DrawLineView extends View {
+    private Paint mPaint = new Paint();
 
     public Practice6DrawLineView(Context context) {
         super(context);
@@ -25,5 +29,8 @@ public class Practice6DrawLineView extends View {
         super.onDraw(canvas);
 
 //        练习内容：使用 canvas.drawLine() 方法画直线
+        mPaint.setColor(Color.BLACK);
+        mPaint.setStrokeWidth(20);
+        canvas.drawLine(50, 50, 800, 500, mPaint);
     }
 }
