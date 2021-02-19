@@ -3,7 +3,9 @@ package cn.funcoding.practicedraw3.practice;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+
 import androidx.annotation.Nullable;
+
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -25,7 +27,7 @@ public class Practice06SetStrikeThruTextView extends View {
 
     {
         paint.setTextSize(60);
-
+        paint.setStrikeThruText(true);
         // 使用 Paint.setStrikeThruText() 来设置删除线
     }
 
